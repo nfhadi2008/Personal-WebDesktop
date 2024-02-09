@@ -1,0 +1,244 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All We Can It</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
+    <style>
+        body {
+            transition: background-color 0.5s ease;
+            font-family: 'Helvetica', Arial, sans-serif;
+            padding: 20px;
+            background-color: #fff; /* Set default background color */
+            color: #333; /* Set default text color */
+        }
+
+        .toggle-container {
+            display: flex;
+            align-items: center;
+            font: optional; 
+        }
+
+        #theme-toggle {
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        /* Dark Mode Styles */
+        body.dark-mode {
+            background-color: #1a1a1a;
+            color: #c5c1c1;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            background-color: rgb(6, 130, 16); /* Set navbar background color */
+        }
+
+        .navbar-brand,
+        .navbar-nav .nav-link {
+            color: #fff; /* Set navbar text color */
+        }
+
+        .navbar-toggler-icon {
+            background-color: #fff; /* Set navbar toggler icon color */
+        }
+
+        .navbar-toggler {
+            border-color: #fff; /* Set navbar toggler border color */
+        }
+
+        /* Carousel Styles */
+        #carouselExample {
+            max-width: 80%;
+            margin: auto;
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            border-radius: 90px; /* Sesuaikan dengan tingkat bulatan yang diinginkan */
+        }
+
+        /* Footer Styles */
+        .footer-container {
+            background-color: rgb(6, 130, 16);
+            color: #fff;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+
+        .footer-section h3 {
+            color: #fff; /* Set footer section heading color */
+        }
+
+        .footer-section a {
+            color: #fff; /* Set footer section link color */
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navigation</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active"  aria-current="page" href="Profile.html"> My Profile </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Learn.html"> Learn with me </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Tema on-->
+    <div class="toggle-container">
+        <label for="theme-toggle">Tema : </label>
+        <input type="checkbox" id="theme-toggle">
+    </div>
+    <!-- Tema done-->
+
+    <div class="container mt-5">
+        <h1 class="judul"> INTRODUCING </h1>
+        <h2 class="judul">MY PROFILE</h2>
+        <h3 class="judul"> Ayo kita kenalan!!  </h3>
+        <div class="marquee">
+            <p class="judul">
+                Selamat datang dan Selamat menikmati website pribadi Naufal Hadi Rizqullah. Anda dapat menemukan banyak hal dalam website ini yang pastinya seru dan menyenangkan!!
+            </p>
+        </div>
+        <div class="profile-container">
+            <div class="profile-image">
+              <img src="foto.jpg" alt="Foto Pribadi" style="max-width: 250px;">
+            </div>
+            <div class="profile-description">
+              <h5>Profile</h5>
+              <p>
+                <strong>Nama    :</strong> Naufal Hadi Rizqullah <br>
+                <strong>Umur    :</strong> 16 Tahun <br>
+                <strong>Email   :</strong> nf.hadi@gmail.com <br>
+                <strong>No.Hp   :</strong> +62-812-1814-5823 <br>
+                <strong>About   :</strong> <br>
+                 Pelajar SMA dengan minat khusus dalam bidang Programming, terutama dengan bahasa pemrograman C++. Memiliki dedikasi tinggi terhadap pendidikan komputer bagi siswa di daerah terpencil di seluruh dunia, dan berkomitmen untuk meningkatkan akses pendidikan di wilayah-wilayah tersebut. <br>
+                <strong>Prestasi :</strong> <br>
+                1. Juara IV Olimpiade Sains Nasional tahun 2023 Bidang Informatika Tingkat Kabupaten Lampung Timur <br>
+                2. Juara III Lomba Cepat Tepat Komputer Tingkat Provinsi PRJxHT UNILA 2023<br>
+                3. Juara III Olimpiade Bidang Komputer Tingkat Provinsi MIPA EXPO UNILA 2023 <br>
+                4. Finalis/Juara Harapan III Competitive Programming Tingkat Nasional PRJxHT UNILA 2023 <br>
+                </p>
+              <a href="CV.pdf" class="btn btn-primary">Kunjungi CV</a>
+            </div>
+          </div>
+
+    <!-- Carousel -->
+    <div>
+
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Description -->
+    <div>
+
+    </div>
+    <!-- Description End -->
+
+     <!-- Footer -->
+     <div class="footer-container">
+        <footer class="container-footer">
+            <div class="content">
+                <div class="contact-info">
+                  <p class="email" >Email : <a href="mailto:nf.hadi@gmail.com" style="color: black; text-decoration: none;">nf.hadi@gmail.com</a></p>
+                  <p class="instagram" >Instagram : <a href="https://www.instagram.com/naufaaalhadiii/" target="_blank" style="color: black; text-decoration: none;">@naufaaalhadiii</a></p>
+                  <p class="whatsapp" >Whatsapp : <a href="wa.me/+6281218145823" target="_blank" style="color: black; text-decoration: none;"> 081218145823</a></p>
+                </div>
+            
+        </footer>
+    </div>
+    <!-- Footer End -->
+
+    <script>
+        // Check user's theme preference from localStorage
+        const currentTheme = localStorage.getItem('theme');
+        if (currentTheme) {
+            document.body.classList.add(currentTheme);
+        }
+
+        // Toggle theme when checkbox is clicked
+        document.getElementById('theme-toggle').addEventListener('change', function () {
+            if (this.checked) {
+                document.body.classList.add('dark-mode');
+                localStorage.setItem('theme', 'dark-mode');
+            } else {
+                document.body.classList.remove('dark-mode');
+                localStorage.setItem('theme', '');
+            }
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // Menambahkan script untuk menjalankan carousel otomatis
+        $(document).ready(function () {
+            $('.carousel').carousel({
+                interval: 2000 // Ganti dengan interval (dalam milidetik) yang diinginkan
+            });
+        });
+    </script>
+</body>
+
+</html>
